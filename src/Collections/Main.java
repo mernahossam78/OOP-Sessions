@@ -34,7 +34,7 @@ public class Main {
         list.add(0,2);
         list.add(1,5);
         list.add(2,90);
-        list.add(3,10);
+       // list.add(3,10);
         list.add(4);
         for(int i: list){
             System.out.println(i);
