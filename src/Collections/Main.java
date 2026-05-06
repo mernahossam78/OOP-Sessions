@@ -22,7 +22,7 @@ public class Main {
             System.out.println(i);
        }
         /* that type of for loop is used when i want it to search
-        the whole loop but im not interested in the beggining
+        the whole loop but im not interested in the beginning
         or the ending
          */
 
@@ -41,5 +41,16 @@ public class Main {
         }
 
         System.out.println(list.get(3));
+
+        /*ArrayList >> duplicated - ordered - random access fast -
+        do not recomment to be modified frequently
+         */
+        ArrayList<Integer> arraylist = new ArrayList<>();  // array list contains a helper function that eases on me adding a new element
+        arraylist.add(5);
+        arraylist.add(8);
+        arraylist.add(6);
+        arraylist.add(810);
+        arraylist.add(2);
+        System.out.println(arraylist.contains(810));
     }
 }
